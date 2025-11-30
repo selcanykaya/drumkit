@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit - Play Your Dream Song</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Play Your Dream Song</h1>
+
+    <div class="drum-container">
+        <img src="docs/img/drum.png" alt="Drum Kit">
+    </div>
+
+    <div class="keys">
+        <div data-key="65" class="key">A</div>
+        <div data-key="83" class="key">S</div>
+        <div data-key="68" class="key">D</div>
+        <div data-key="70" class="key">F</div>
+        <div data-key="71" class="key">G</div>
+        <div data-key="72" class="key">H</div>
+        <div data-key="74" class="key">J</div>
+        <div data-key="75" class="key">K</div>
+        <div data-key="76" class="key">L</div>
+    </div>
+
+    <!-- Ses dosyaları -->
+    <audio data-key="65" src="docs/sound/clap.wav"></audio>
+    <audio data-key="83" src="docs/sound/hihat.wav"></audio>
+    <audio data-key="68" src="docs/sound/kick.wav"></audio>
+    <audio data-key="70" src="docs/sound/openhat.wav"></audio>
+    <audio data-key="71" src="docs/sound/boom.wav"></audio>
+    <audio data-key="72" src="docs/sound/ride.wav"></audio>
+    <audio data-key="74" src="docs/sound/snare.wav"></audio>
+    <audio data-key="75" src="docs/sound/tom.wav"></audio>
+    <audio data-key="76" src="docs/sound/tink.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
